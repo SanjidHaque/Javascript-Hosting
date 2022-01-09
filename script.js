@@ -1,4 +1,4 @@
-callConfirmBox();
+callConfirmBox()
 function callConfirmBox () {
   if (confirm("Press a button")) {
 
