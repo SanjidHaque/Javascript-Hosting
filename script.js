@@ -1,4 +1,6 @@
-callConfirmBox()
+var div = '<div>Angular</div>'
+
+
 function callConfirmBox () {
   if (confirm("Press a button")) {
 
