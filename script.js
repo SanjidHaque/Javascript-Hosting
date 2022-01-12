@@ -1,15 +1,4 @@
-var div = '<div>Angular</div>'
-
-
-function callConfirmBox () {
-  if (confirm("Press a button")) {
-
-    txt = "You pressed OK!";
-    var btn = document.createElement("BUTTON");   // Create a <button> element
-    btn.innerHTML = "Click Me";                   // Insert text
-    document.body.appendChild(btn);   
-  
-  } else {
-    txt = "You pressed Cancel!";
-  }
-}
+window.addEventListener('load', (event) => {
+ var x = 'var btn = document.createElement("BUTTON") + btn.innerHTML = "Click"'
+ return x;
+});
